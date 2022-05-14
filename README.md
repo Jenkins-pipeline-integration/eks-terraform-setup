@@ -85,6 +85,8 @@ $ kubectl get pod
 ## deploy cluster auto scaler
 $ kubectl apply -f clusterautoscaler.yml
 
+aws eks --region my-aws-region update-kubeconfig --name my-cluster-name
+
  ```
 ```
 ##  Destroy Infrastructure  
